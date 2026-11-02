@@ -1,0 +1,1671 @@
+
+body{
+
+background-color:orange;
+margin: 0;
+
+
+}
+*{
+
+
+    box-sizing: border-box;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+/* -------------------------------start navbar--------------------------------- */
+
+
+.navbar{
+width: 80%;
+background-color: aliceblue;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 20px;
+     top: 0;
+    z-index: 999;
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+.navbar .navbar-left{
+
+    font-size: 30px;
+}
+.navbar .navbar-left span{
+
+    background-color: orange;
+}
+
+ .navbar .navbar-center{
+    /* background-color: brown; */
+     width:40%;
+    display: flex;
+text-align: center;
+    align-content: center;
+    justify-content: center;
+
+
+} 
+ 
+ .navbar .navbar-center p{
+
+    font-size: 20px;
+
+    text-align: center;
+    padding-inline-end:10px ;
+    padding-left:10px;}
+
+.navbar-center :hover  {
+
+    color:red;
+    
+} 
+ 
+
+
+
+
+ .navbar .navbar-center div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-content:space-evenly;
+    /* background-color: blue; */
+    
+    
+    
+ }
+ 
+ 
+
+
+.navbar-center  img{
+    /* background-color: blueviolet; */
+    width:10%;
+    
+   
+    
+    
+    
+
+    
+}
+ .navbar .navbar-button  button{
+    background-color:orange ;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.5s;
+
+
+    
+ }
+
+.navbar-button:hover button {
+
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+}
+
+
+
+@media screen and  ( min-width:676px) and (max-width:992px){
+
+ .navbar .navbar-button {
+    display: none;
+
+
+.navbar .navbar-center a{
+
+    display: none;
+}
+    
+ }
+
+    
+}
+
+
+/*  
+.navbar:hover .navbar-button{
+
+    transition-duration: 0.5s;
+    transform:scale(0.9);
+}  *
+  /* ----------------------------------------------end navbar----------------------------------------- */
+
+
+
+  /* ----------------------------------------------start home----------------------------------------- */
+
+  .home{
+   
+background-color:orange;
+    width: 100%;
+    padding-top: 100px;
+    margin-left: 0;
+    
+
+  
+  }
+
+  .image-home {
+    position: relative;
+  }
+@media screen  and (max-width:576px){
+    .home .container-home{
+        width: 100;
+        flex-direction: column;
+
+
+    }
+          .home .container-home .right-home{
+            width: 100% !important;
+            justify-content: end;
+            margin-left: 30px;
+          }
+          .home .container-home .right-home .home-button .button-1 {
+
+            width: 50% !important;
+          }
+          .home .container-home .right-home .home-button .button-2 {
+
+            width:50% !important;
+          }
+.home .home-left {
+    width: 90% !important;
+}
+
+
+    }
+@media screen  and (min-width:576px) and (max-width:768x){
+    .home .container-home{
+        width: 100;
+        flex-direction: column;
+
+
+    }
+          .home .container-home .right-home{
+            width: 100% !important;
+            justify-content: end;
+            margin-left: 30px;
+          }
+          .home .container-home .right-home .home-button .button-1 {
+
+            width: 50% !important;
+          }
+          .home .container-home .right-home .home-button .button-2 {
+
+            width:50% !important;
+          }
+.home .home-left {
+    width: 90% !important;
+}
+
+
+    }
+@media screen  and (min-width:768px) and (max-width:992px){
+    .home .container-home{
+        width: 100;
+        flex-direction: column;
+
+
+    }
+          .home .container-home .right-home{
+            width: 100% !important;
+            justify-content: end;
+            margin-left: 30px;
+          }
+          .home .container-home .right-home .home-button .button-1 {
+
+            width: 50% !important;
+          }
+          .home .container-home .right-home .home-button .button-2 {
+
+            width:50% !important;
+          }
+.home .home-left {
+    width: 90% !important;
+}
+
+
+    }
+@media screen  and (min-width:576px) and (max-width:620px){
+    .home .container-home{
+        width: 100;
+        flex-direction: column;
+
+
+    }
+          .home .container-home .right-home{
+            width: 100% !important;
+            justify-content: end;
+            margin-left: 30px;
+          }
+          .home .container-home .right-home .home-button .button-1 {
+
+            width: 50% !important;
+          }
+          .home .container-home .right-home .home-button .button-2 {
+
+            width:50% !important;
+          }
+.home .home-left {
+    width: 90% !important;
+}
+
+
+ }
+/* 
+@media screen  and (min-width:992px) and (max-width:1200px){
+    .home .container-home{
+        width: 100% !important;
+        
+
+
+    }
+          .home .container-home .right-home{
+            width: 100% !important;
+            justify-content: end;
+            margin-left: 30px;
+          }
+          .home .container-home .right-home .home-button .button-1 {
+
+            width: 50% !important;
+          }
+          .home .container-home .right-home .home-button .button-2 {
+
+            width:50% !important;
+          }
+.home .home-left {
+    width: 90% !important;
+}
+
+
+    }  */
+
+    
+.home .container-home{
+    width: 90;
+    margin: auto;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-block: 100px;
+
+}
+
+  .home .container-home .right-home{
+width: 45%;
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin-right: 50px;
+font-size: 20px; 
+
+text-shadow: 1px -1px 1px black;
+    
+/* background-color: aqua; */
+
+  }
+ .home .container-home .right-home .span-1{
+    font-size: 40px;
+    
+ }
+ .home .container-home .right-home .span-2{
+    font-size: 40px;
+    color: red;
+
+ }
+ .home .container-home .right-home .span-3{
+    font-size: 40px;
+    color :dodgerblue;
+
+ }
+
+    .home .container-home .right-home h4{
+
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .home .container-home .right-home h2{
+
+        font-size: 18px;
+        border: 3px solid black;
+        width: 40%;
+        padding: 10px;
+        background-color: black;
+        color:white;
+        transform: rotate(-2deg);
+        margin-bottom: 20px;
+    }
+
+  .home .container-home .right-home p{
+font-size: 25px;
+    background-color: lavender;
+    border: 2px solid black;
+    padding: 10px;
+  }
+.home .container-home .right-home .home-button .button-1 {
+width:35%;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    transition:all 0.5s ease;
+        box-shadow: 3px 2px 0px black;
+
+}
+
+.button-1:hover {
+    transform: scale(0.9);
+    box-shadow:none !important;
+}
+
+  .home .right-home .button-1 img{
+
+    width: 15%;
+
+
+  }
+
+    .home .container-home .right-home .home-button{
+
+        /* background-color: blueviolet; */
+         display: flex;
+        flex-direction: row; 
+         
+        gap:30px;
+    
+        
+    }
+ 
+/* 
+   .home .right-home .button-2 span{
+
+    font-size: 30px;
+   } */
+
+   
+
+
+
+
+
+.home .container-home .right-home .home-button .button-2 {
+width:35%;
+    background-color:white;
+    display: flex;
+        border: 3px solid black;
+        padding: 10px;
+
+        align-items: center;
+        justify-content: center;
+    transition: all 0.5s ease;
+ box-shadow: 5px 3px 2px black;
+ 
+}
+
+.home .container-home .right-home .home-button .button-2:hover {
+
+transform:scale(0.95) ;
+
+ 
+box-shadow: none !important;
+ 
+}
+
+  .home .right-home .button-2 img{
+
+    width: 15%;
+    
+
+  }
+
+
+
+
+
+  
+ 
+
+    .home .home-left  img{
+
+        width:90%;
+    
+       background-color: blueviolet;
+
+    
+   box-shadow : 4px 4px 1px  black ,
+    -4px -4px 1px  black  ;
+  
+    justify-content: right;
+    transform:    rotate(2deg) ;
+
+transition: all 0.2s ease-in-out;
+
+        
+    }
+
+    .home-left:hover{
+        transform: scale(1.1);
+        transform: translate(5px)  ;
+       
+    }
+    .home .home-left {
+        width: 30%;
+        /* background-color: aqua; */
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+
+        
+        
+    }
+
+    .home  .home-left .image-home span{
+        position: absolute;
+        top:0px;
+        right:0px;
+   
+        transform: rotate(15deg);
+        border: 3px solid black;
+        background-color: red;
+        color:white;
+        padding: 10px;
+        
+    }
+
+
+  /* ---------------------------------- end home-------------------------- */
+
+
+
+
+  /* ---------------------------------- start artical------------------------- */
+
+
+
+
+  .artical-body{
+
+    width: 100%;
+    background-color: lavender;
+  }
+.artical{
+
+    width: 90%;
+    background-color:lavender;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+.artical{
+    margin: 0;
+}
+.container-artical{
+    width:60%;
+    
+    background-color:lavender;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container-artical{
+
+    margin:30px;
+}
+/* ------------------------------text start pargraph---------------------- */
+.container-artical .text-span{
+width: 90%;
+margin: auto;
+    background-color: lavender;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.container-artical .text-span h3{
+
+    font-size: 40px;
+}
+.container-artical .text-span span{
+
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transform: rotate(5deg);
+}
+
+/* -----------------------------------------end pragraph------------------------- */
+
+
+
+
+
+/* -----------------------------container categary------------------- */
+.artical .container-stak{
+    width: 20%;
+    background-color: lavender;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+    position: sticky;
+    top: 0;
+  
+}
+
+.artical .container-stak{
+    margin: 20px;
+}
+/* ----------------------------------------end stak categry-------------------------- */
+
+.artical .container-artical button{
+    background-color:black;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 700;
+       box-shadow:10px 10px 5px black;
+       text-align: center;
+       display: block;
+       margin: 0 auto;
+
+    /* transform: translate(70%); */
+    padding: 16px;
+    transition: all 0.5s ;
+}
+
+.artical .container-artical button:hover{
+   box-shadow:none !important;
+    transform: scale(0.95) translate(10px,10px);
+ 
+}
+
+
+
+
+
+.artical .container-artical .cards {
+/* background-color: blue; */
+width:90%;
+
+
+}
+
+
+.artical .container-artical .cards .card .card-img{
+width: 30%;
+background-color: black;
+position: relative;
+margin-left: 20px;
+margin-right: 20px;
+transform: translate(-2%,-20%);
+
+}
+
+.artical .container-artical .cards .card .card-img img{
+
+    width: 100%;
+
+}
+
+
+
+.artical .container-artical .cards .card .card-img span{
+width: 30%;
+text-align: center;
+    background-color: red;
+    border: 3px solid black;
+    position: absolute;
+    top:-15px;
+    right:0px;
+    color: white;
+
+    transform: rotate(5deg);
+}
+.artical .container-artical .cards .card .card-img .span-hot{
+width: 30%;
+text-align: center;
+    background-color: red;
+    border: 3px solid black;
+    position: absolute;
+    top:-5px;
+    right:0px;
+    color: white;
+
+    transform: rotate(-25deg);
+}
+.artical .container-artical .cards .card .card-img .span-viral{
+width: 40%;
+text-align: center;
+    /* background-color: red; */
+    border: 3px solid black;
+    position: absolute;
+    top:0px;
+    right:0px;
+    color: white;
+
+    transform: translate(40%);
+        transform: rotate(40deg);
+
+}
+
+.artical .container-artical .cards .card .icon-artical .icon{
+
+    /* background-color: brown; */
+    width: 30%;
+font-size: 14px;
+
+}
+
+
+
+.artical .container-artical .cards .card .icon-artical .icon img{
+
+    width: 10%;
+    transform: translate(2px,2px);
+    
+}
+
+
+
+
+.artical .container-artical .cards .card .icon-artical .icon-1{
+
+    /* background-color: brown; */
+    width:10%;
+    margin: 0;
+
+
+}
+
+
+.artical .container-artical .cards .card .icon-artical .icon-1 img{
+
+    width: 30%;
+
+    transform: translate(2px,2px);
+    
+}
+.artical .container-artical .cards .card .icon-artical .icon-2{
+
+    /* background-color: yellow; */
+    width:30%;
+
+
+}
+
+
+.artical .container-artical .cards .card .icon-artical .icon-2 img{
+
+    width: 15%;
+    transform: translate(2px,2px);
+    
+}
+
+.artical .container-artical .cards .card .icon-artical {
+
+    display: flex;
+    gap:15px;
+    align-items: center;
+    
+}
+.artical .container-artical .cards .body-artical{
+/* background-color: aqua; */
+margin-top: 25px;
+margin-bottom: 25px;
+    width: 100%;
+    align-content:center ;
+}
+.artical .container-artical .cards .body-artical h4{
+    margin: 5px;
+}
+
+
+.artical .container-artical .cards .card{
+
+    background-color:blanchedalmond;
+    display: flex;
+    border: 3px solid black;
+    width: 100%;
+align-items: center;
+margin: 20px;
+transition: all 0.5s ease-out;
+
+}
+
+.artical .container-artical .cards .card:hover{
+    box-shadow: 3px 5px 5px black;
+    transform: scale(1.025);
+}
+
+.artical .container-artical .cards .body-artical .span-body {
+
+    background-color:yellow;
+    border: 3px solid black;
+    width: 50%;
+    
+    
+
+}
+
+/* --------------------------------------------- start articals--------------------------- */
+
+.artical .cat{
+
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    justify-content: center;
+    
+
+
+}
+
+
+.artical .cat h4{
+    font-size: 20px;
+    margin:10px;
+
+}
+.artical .cat h5{
+
+    font-size: 15px;
+    justify-content: center;
+    transform: translate(10%);
+    
+
+    
+}
+
+
+.artical .cat h5{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.artical .cat .container-cat{
+
+    /* background-color: brown; */
+    display: flex;
+   
+    
+}
+
+.cat .container-cat p{
+margin: 5px;
+
+}
+ .cat .container-cat span{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    width: 5%;
+    padding: 20px;
+    align-items: top;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+ .cat .container-cat .cat-1 {
+    /* background-color:bisque; */
+    width: 100%;
+    
+transition: all 0.3s ease-out;
+}
+
+ .cat .container-cat .cat-1:hover{
+    transform: scale(1.025);
+    color: red;
+ }
+ .cat .container-cat .cat-2:hover{
+    transform: scale(1.025);
+    color: skyblue;
+ }
+ .cat .container-cat .cat-3:hover{
+    transform: scale(1.025);
+    color: blueviolet;
+ }
+
+ .cat .container-cat .cat-2{
+    transition: all 0.3s ease-out;
+    
+ }
+ .cat .container-cat .cat-3{
+    transition: all 0.3s ease-out;
+    
+ }
+
+ .artical .cat-span{
+    width: 100%;
+    height: 300px;
+    margin-top:10px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-bottom: 10px;
+
+
+    
+
+ }
+
+
+  .artical .cat-span h4{
+margin: 10px;
+    font-size: 25px;
+    padding-top: 10px;
+    color: black;
+    transform: translate(-20%);
+
+    
+  }
+
+ .artical .cat-span span{
+
+    background-color: aqua;
+    display:block;
+    width: 80%;
+    font-size: 18px;
+    margin: 5px;
+    border: 2px solid black;
+    
+ }
+
+
+/* --------------------------------- span cat span-------------------------------- */
+
+ .artical .cat-span .span-24{
+    background-color: wheat;
+    transition: all 0.2s ease-in;
+ }
+ .artical .cat-span .span-24:hover{
+        box-shadow:10px 10px 5px black;
+    transform: scale(1.025);
+    background-color:darkorange;
+ }
+
+ .artical .cat-span .span-18{
+    background-color:rgba(151, 179, 190, 0.907);
+     transition: all 0.2s ease-in;
+    
+ }
+
+  .artical .cat-span .span-18:hover{
+        box-shadow:10px 10px 5px black;
+    transform: scale(1.025);
+    background-color: blanchedalmond;
+ }
+ .artical .cat-span .span-15{
+    background-color: lavender;
+     transition: all 0.2s ease-in;
+     
+ }
+
+  .artical .cat-span .span-15:hover{
+        box-shadow:10px 10px 5px black;
+    transform: scale(1.025);
+    background-color:brown ;
+    color: aliceblue;
+ }
+ .artical .cat-span .span-12{
+    background-color: powderblue;
+     transition: all 0.2s ease-in;
+ }
+
+  .artical .cat-span .span-12:hover{
+        box-shadow:10px 10px 5px black;
+    transform: scale(1.025);
+    background-color: aquamarine;
+    color: brown;
+ }
+ .artical .cat-span .span-9{
+    background-color: lightgrey;
+     transition: all 0.2s ease-in;
+ }
+  .artical .cat-span .span-9:hover{
+        box-shadow:10px 10px 5px black;
+    transform: scale(1.025);
+    background-color: deeppink;
+    
+ }
+
+/* -------------------------------------- contaier span------------------------------- */
+.artical .cat .container-cat .span-01{
+color:red;
+font-size: 30px;
+
+}
+.artical .cat .container-cat .span-02{
+color:lightskyblue;
+font-size: 30px;
+
+}
+.artical .cat .container-cat .span-03{
+color:blueviolet;
+font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------- end  articals--------------------------- */
+
+  /* ---------------------------------- end artical-------------------------- */
+
+
+  /* ---------------------------------- start athors-------------------------- */
+
+.athors{
+width:100%;
+
+    background-color: orange ;
+
+    
+
+}
+.athors h2{
+
+    font-size: 48px;
+    padding: 25px;
+    margin-bottom: 0;
+}
+.athors p{
+    font-size: 20px;
+    margin: 0;
+}
+/* ================================= meadia her====================== */
+
+
+
+@media screen and (max-width:576) {
+
+    .athors .container-athor{
+
+        width: 100% !important;
+        flex-direction:column  ;
+    }
+
+    
+}
+
+.athors .container-athor{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+}
+
+
+.athors .athor{
+    background-color: blanchedalmond;
+    position: relative;
+    width:25%;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    
+    box-shadow: 7px 3px 8px black;
+    /* transform: scale(1.1); */
+
+    /* background-color: aqua; */
+}
+
+.container-athor .athor{
+    transition: all 0.3s;
+}
+
+.container-athor .athor:hover {
+
+transform: scale(1.02);
+
+
+}
+
+
+
+
+
+
+
+.athors .athor img{
+    width:40%;
+    margin-top: 30px;
+
+    border: 3px solid black;
+}
+
+.athors .athor .athor-ank{
+
+    width:80%;
+    
+    /* background-color: blueviolet; */
+    display: flex;
+    transform: translate(10%);
+    gap:10px;
+    
+    
+
+    
+    
+}
+.athors .athor .athor-ank img{
+    width: 100%;
+    
+}
+
+.athors .athor .athor-ank .ank-1 img{
+
+    
+padding: 10px;
+
+    border: 3px solid black;
+    
+    background-color: black;
+}
+.athors .athor .athor-ank .ank-2 img{
+
+    
+    padding: 10px;
+
+    border: 3px solid black;
+    
+    background-color: black;
+}
+.athors .athor .athor-ank .ank-3 img{
+
+    padding: 10px;
+
+    border: 3px solid black;
+    
+    background-color: black;
+}
+
+.athors .athor .span-1{
+
+background-color: brown;
+position: absolute;
+top:20px;
+right: 10px;
+border: 3px solid black;
+transform: rotate(25deg);
+}
+.athors .athor .span-2{
+
+background-color: skyblue;
+position: absolute;
+top:20px;
+right:50px;
+border: 3px solid black;
+transform: rotate(-25deg);
+}
+.athors .athor .span-3{
+
+background-color:blueviolet;
+position: absolute;
+top:20px;
+right:10px;
+border: 3px solid black;
+transform: rotate(45deg);
+}
+
+  /* ---------------------------------- end athors-------------------------- */
+
+
+
+  /* ---------------------------------- start join-------------------------- */
+
+.join{
+    width: 100%;
+    
+    background-color: lavender;
+}
+.join .join-border{
+
+    background-color:lavender;
+    text-align: center;
+}
+.join .join-border .border{
+    min-height: 5vh;
+    transform: translate(45%);
+}
+
+.join .join-border .border .border-black{
+    width: 10%;
+    border: 5px solid black;
+    
+}
+
+
+
+ .join h3{
+
+    font-size: 48px;
+margin-bottom: 16px;
+    text-align: center;
+    padding-top: 48px;
+} 
+/* .join p{
+    width: 25%;
+    border-bottom: 10px solid black;
+    
+} 
+.join .join-border .border{
+    width: 100%;
+    
+    color: black;
+    margin-inline: 16px;
+
+
+
+} */
+
+.join .container-join{
+    width: 100%;
+    justify-content: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.join .right-join{
+width: 50%;
+    background-color: lavender;
+    padding-bottom: 8%;
+    margin-right: 40px;
+    
+}
+.join .right-join h4{
+   font-size: 36px;
+
+}
+.join .right-join p{
+width: 80%;
+
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+/* --------------------------------- img and span--------------------- */
+
+.join .right-join .span-text-1{
+    display: flex;
+}
+
+.join .right-join .span-text-1 img{
+    width: 10%;
+    height: 60px;
+    border: 2px solid black;
+    background-color:red;
+    padding:10px;
+    margin: 5px;
+}
+.join .right-join .span-text-1 span{
+    font-size: 18px;
+    align-content: center;
+    
+}
+.join .right-join .span-text-2{
+    display: flex;
+}
+
+.join .right-join .span-text-2 img{
+    width: 10%;
+    height: 60px;
+    border: 2px solid black;
+    background-color:darkcyan;
+    padding:10px;
+    margin: 5px;
+}
+.join .right-join .span-text-2 span{
+    font-size: 18px;
+    align-content: center;
+    
+}
+.join .right-join .span-text-3{
+    display: flex;
+}
+
+.join .right-join .span-text-3 img{
+    width: 10%;
+    height: 60px;
+    border: 2px solid black;
+    background-color:blueviolet;
+    padding:10px;
+    margin: 5px;
+}
+.join .right-join .span-text-3 span{
+    font-size: 18px;
+    align-content: center;
+    
+}
+.join .right-join .span-text-4{
+    display: flex;
+}
+
+.join .right-join .span-text-4 img{
+    width: 10%;
+    height: 60px;
+    border: 2px solid black;
+    background-color:lightgreen;
+    padding:10px;
+    margin: 5px;
+}
+.join .right-join .span-text-4 span{
+    font-size: 18px;
+    align-content: center;
+    
+}
+
+/* ------------------------------------ start button ----------------------- */
+
+
+.join .right-button {
+
+
+width:50%;
+    background-color:black;
+    display: flex;
+    border: 2px solid black;
+    padding:10px;
+   
+
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+   transition: all 0.3s ease-out;
+   
+}
+
+
+.join .right-button:hover{
+   box-shadow:none !important;
+    transform: scale(0.95) translate(10px,10px);
+ 
+}
+
+.join .right-join  img{
+    width: 20%;
+}
+
+
+/* ====================================start left-join========================== */
+
+.left-join{
+    background-color: whitesmoke;
+    width: 40%;
+border: 2px solid black;
+padding: 40px;
+margin-left: 0px;
+
+}
+.left-join h5{
+    font-size: 30px;
+}
+
+/* ============================== start class left text  1 ============================ */
+.left-join .left-text-1{
+    width: 90%;
+    background-color:lightcoral;
+    border: 2px solid black;
+    padding:10px 20px;
+    margin: 20px;
+  
+
+}
+
+
+.left-join .left-text-1 p{
+
+    font-size: 18px;
+    margin-top: 5px;
+    
+}
+.left-join img{
+    width: 100%;
+     /* display: flex;
+    flex-direction: row;  */
+}
+.left-join .left-img{
+
+    width: 10%;
+
+    
+}
+
+.left-join .left-img-text p{
+    border: none;
+    margin: 0;
+
+}
+
+
+.left-join  .left-img-text h4{
+    margin: 0;
+}
+.left-join  .left-img-text{
+    /* background-color: aqua; */
+    width: 60%;
+
+
+
+
+}
+.left-join .container-img{
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+/* ========================================end class left text=========================== */
+
+
+
+
+/* ============================== start class left text 2 ============================ */
+.left-join .left-text-2{
+    width: 90%;
+    background-color: skyblue;
+    border: 2px solid black;
+    padding:10px 20px;
+    margin: 20px;
+  
+
+}
+
+
+.left-join .left-text-2 p{
+
+    font-size: 18px;
+    margin-top: 5px;
+    
+}
+
+/* ========================================end class left text=========================== */
+
+
+
+
+/* ============================== start class left text 3 ============================ */
+.left-join .left-text-3{
+    width: 90%;
+    background-color:lavender;
+    border: 2px solid black;
+    padding:10px 20px;
+    margin: 20px;
+  
+
+}
+
+
+.left-join .left-text-3 p{
+
+    font-size: 18px;
+    margin-top: 5px;
+    
+}
+
+/* ========================================end class left text=========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ---------------------------------- end join -------------------------- */
+
+
+  
+
+
+
+
+
+  /* ---------------------------------- start end -------------------------- */
+
+
+
+
+
+  .main-container-end{
+
+    width: 100%;
+    background-color: black;
+  }
+.end {
+
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    
+
+}
+.end .container-body{
+    display: flex;
+    
+}
+
+.end  .container-body .end-container {
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+
+
+
+.end .container-body .end-container .right-end .end-img img {
+    width: 10%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.end .right-end .end-img {
+
+    /* background-color: red; */
+    display: flex;
+}
+
+
+
+.end .right-end  h3 {
+
+    font-size: 20px;
+    color: white;
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+.end .right-end {
+
+    width:100%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+.end .end-midl {
+    background-color:black ;
+    width: 33.33%;
+    color: darkgrey;
+
+}
+
+.end .end-midl a{
+
+text-decoration: none;
+color: white;
+
+}
+
+.end .end-midl h3 {
+    font-size: 20px;
+    color: white
+} 
+
+/* ------------------------------- end final------------------ */
+
+
+.end .end-final {
+
+    background-color: black;
+    
+    display: flex;
+    
+    border-top: 5px solid white ;
+    justify-content: space-between;
+
+
+}
+
+.end-final p {
+
+padding: 10px;
+   
+    color: white;
+
+}
+
+
+
+
+.end .end-final .final-ank  {
+    width:40%;
+display: flex;
+    background-color: black;
+   
+
+}
+
+.end .end-final .final-ank a{
+    text-decoration: none;
+    align-content: center;
+    color: white;
+    
+    width: 100%;
+}
+
+ form{
+
+    padding:10px;
+    margin: 30px ;
+    border: 3px solid black;
+}
+
+input{
+width: 100%;
+    display: block;
+    background-color: black;
+    color: white;
+}
+ .end .end-midl button{
+    margin: 10px ;
+    padding: 10px;
+    background-color: gold;
+    width: 100%;
+}
+button:hover{
+    transform: scale(0.9);
+    transition: all 0.5s ease-out;
+}
+
+  /* ---------------------------------- end end -------------------------- */
